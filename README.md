@@ -19,16 +19,17 @@ You will also see any lint errors in the console.
 Voit suorittaa ohjelman käyttämällä node.js suoritusympäristöä (Mikäli sinulla ei ole Node.js voit ladata sen täältä: https://nodejs.org/en/ ) \
 Mikäli sinulla on node.js, voit käynnistää web-käyttöliittymän menemällä komentorivillä (esim powerShell) sovelluksen hakemistoon.
 
-Sovellus käynnistetään kirjoittamalla komentoriviin: npm start\
-Sovellus käynnistyy oletusarvoisesti localhostin porttiin 3000, eli osoitteeseen http://localhost:3000\
+Sovellus käynnistetään kirjoittamalla komentoriviin: npm start \
+Sovellus käynnistyy oletusarvoisesti localhostin porttiin 3000, eli osoitteeseen http://localhost:3000 \
 
-Sovelluksen koodi on hakemistossa src\
-Sovelluksen komponentit ovat hakemistossa src/components\
+Sovelluksen koodi on hakemistossa src \
+Sovelluksen komponentit ovat hakemistossa src/components \
 
 ## Parannus ehdotukset
 
-Mikäli projekti on jo saavuttanut tavoitteen, olisi hyvä varmistaa käyttäjältä haluttaanko sille vielä kohdistaa varoja\
-Suurten varojen kohdistaminen: \ Mikäli käyttäjä on kohdistamassa merkittävän summan rahaa, olisi hyvä varmistaa, että käyttäjä haluaa kohdistaa sen verran rahaa.\
+Mikäli projekti on jo saavuttanut tavoitteen, olisi hyvä varmistaa käyttäjältä haluttaanko sille vielä kohdistaa varoja \
+Suurten varojen kohdistaminen: \
+Mikäli käyttäjä on kohdistamassa merkittävän summan rahaa, olisi hyvä varmistaa, että käyttäjä haluaa kohdistaa sen verran rahaa.\
 Projektin aloituksessa olisi hyvä olla varmistus, että käyttäjä aloittaa oikeaa projektia.\
 Mikäli projektilla on paljon enemmän rahaa(esim. yli 5000€), kuin tavoite, olisi hyvä varmistaa, että sillä ei ole kohdentamattomia lahjoituksia.\
 
