@@ -17,11 +17,15 @@ You will also see any lint errors in the console.
 ## Ohjelman suoritus
 
 Voit suorittaa ohjelman käyttämällä node.js suoritusympäristöä (Mikäli sinulla ei ole Node.js voit ladata sen täältä: https://nodejs.org/en/ )
+
 Mikäli sinulla on node.js, voit käynnistää web-käyttöliittymän menemällä komentorivillä (esim powerShell) sovelluksen hakemistoon.
+
 Sovellus käynnistetään kirjoittamalla komentoriviin: npm start
 
 Sovellus käynnistyy oletusarvoisesti localhostin porttiin 3000, eli osoitteeseen http://localhost:3000
+
 Sovelluksen koodi on hakemistossa src
+
 Sovelluksen komponentit ovat hakemistossa src/components
 
 ## Parannus ehdotukset
