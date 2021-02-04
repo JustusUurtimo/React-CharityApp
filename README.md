@@ -25,11 +25,14 @@ Sovellus käynnistyy oletusarvoisesti localhostin porttiin 3000, eli osoitteesee
 Sovelluksen koodi on hakemistossa src \
 Sovelluksen komponentit ovat hakemistossa src/components \
 
+## Sovelluksen käyttäminen
+
+
 ## Parannus ehdotukset
 
 ### Mikäli projekti on jo saavuttanut tavoitteen:
-Tällöin olisi hyvä varmistaa käyttäjältä haluttaanko sille vielä kohdistaa varoja\
-### Suurten varojen kohdistaminen:\
+Tällöin olisi hyvä varmistaa käyttäjältä haluttaanko sille vielä kohdistaa varoja
+### Suurten varojen kohdistaminen:
 Mikäli käyttäjä on kohdistamassa merkittävän summan rahaa, olisi hyvä varmistaa, että käyttäjä haluaa kohdistaa sen verran rahaa.\
 ### Projektien aloitus
 Projektin aloituksessa olisi hyvä olla varmistus, että käyttäjä aloittaa oikeaa projektia.\
