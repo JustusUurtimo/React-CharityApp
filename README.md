@@ -27,6 +27,36 @@ Sovelluksen komponentit ovat hakemistossa src/components \
 
 ## Sovelluksen käyttäminen
 
+### Rahojen kohdentaminen
+Sovelluksessa on Ylhäällä ensin kaikkien lahjoitusten yhteissumma. \
+Tämän alapuolella on kohdentamattomien lahjoitusten määrä. \
+
+"Kohdenna lahjoituksia" - otsikon alapuolella on kaksi kenttää, joista ensimmäiseen laitetaan projektin nimi ja toiseen rahamäärä. \
+Mikäli käyttäjä laittaa rahaa väärälle projektille, voi hän peruuttaa kohdennuksen ottamalla projektilta rahaa käyttämällä samoja kenttiä. \
+Mikäli käyttäjä ottaa rahaa projektilta hän kirjoittaa ensimmäiseen kenttään projektin nimen ja toiseen otettavan määrän mutta negatiivisena. \
+
+### Esimerkki tapaus rahojen kohdentamisesta
+
+Käyttäjä haluaa siirtää "Amurintiikerien palautus luontoon" - projektille rahaa 200€. \
+Tällöin käyttäjä kirjoittaa ensimmäiseen kenttään projektin nimen (kentän alapuolelle ilmestyy ehdotus lista, josta käyttäjä voi myös valita projektin) \
+Käyttäjä kirjoittaa toiseen kenttään määrän 200 (ohjelma toimii myös mikäli käyttäjä kirjoittaa esim. 200€) ja painaa "kohdenna" nappia, jolloin projektille siirtyy rahaa, kohdentamattomien rahojen määrä vähenee ja kenttien ylä puolelle ilmestyy "onnistui" teksti. \
+Mikäli käyttäjä tekee virheen, kenttien yläpuolelle ilmestyy mahdollisimman kuvaileva virhe-ilmoitus.
+
+### Esimerkki tapaus rahojen uudelleen kohdentamisesta
+
+Käyttäjä on siirtänyt rahaa väärälle projektille. \
+Mikäli projektia ei ole aloitettu, voi käyttäjä perua virheensä siirtämällä projektilta negatiivisen summan rahaa. \
+Tällöin käyttäjä kirjoittaa enismmäiseen kenttään projektin nimen ja toiseen kenttään summan esim. -200, tai -200€ \
+Tämän jälkeen kohdentamattomien lahjoitusten määrä kasvaa ja projektin rahamäärä pienenee. \
+Mikäli käyttäjä kirjoittaa suuremman summan, kuin projektilla on kohdentamattomia varoja, ilmestyy virhe ilmoitus, joka kertoo paljonko kohdentamattomia varoja projektilla on.
+
+### Projektin toteuttaminen
+
+Mikäli projektilla on tarpeeksi rahaa, voi käyttäjä toteuttaa projektin kirjoittamalla sen nimen "Toteuta projekti" - otsikon alla olevaan kenttään ja painamalla "toteuta" - nappia \
+Tällöin projekti siirtyy "toteutetut" projektit listaan ja sen varhoihin ei voi enää vaikuttaa.
+Mikäli projektilla ei ole tarpeeksi rahaa ja käyttäjä yrittää toteuttaa sen sovellus ilmoittaa tästä virheviestillä. \
+
+
 
 ## Parannus ehdotukset
 
@@ -37,25 +67,3 @@ Mikäli käyttäjä on kohdistamassa merkittävän summan rahaa, olisi hyvä var
 ### Projektien aloitus
 Projektin aloituksessa olisi hyvä olla varmistus, että käyttäjä aloittaa oikeaa projektia.\
 Mikäli projektilla on paljon enemmän rahaa(esim. yli 5000€), kuin tavoite, olisi hyvä varmistaa, että sillä ei ole kohdentamattomia lahjoituksia.\
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
