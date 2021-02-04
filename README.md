@@ -28,7 +28,7 @@ Sovelluksen komponentit ovat hakemistossa src/components\
 ## Parannus ehdotukset
 
 Mikäli projekti on jo saavuttanut tavoitteen, olisi hyvä varmistaa käyttäjältä haluttaanko sille vielä kohdistaa varoja\
-Suurten varojen kohdistaminen: Mikäli käyttäjä on kohdistamassa merkittävän summan rahaa, olisi hyvä varmistaa, että käyttäjä haluaa kohdistaa sen verran rahaa.\
+Suurten varojen kohdistaminen: \ Mikäli käyttäjä on kohdistamassa merkittävän summan rahaa, olisi hyvä varmistaa, että käyttäjä haluaa kohdistaa sen verran rahaa.\
 Projektin aloituksessa olisi hyvä olla varmistus, että käyttäjä aloittaa oikeaa projektia.\
 Mikäli projektilla on paljon enemmän rahaa(esim. yli 5000€), kuin tavoite, olisi hyvä varmistaa, että sillä ei ole kohdentamattomia lahjoituksia.\
 
